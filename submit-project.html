@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit a Project | MPM Core - NYU Abu Dhabi</title>
+<meta name="description" content="Submit a project or request a consultation with the MPM Core. Describe your research question, sample type, number of samples, desired analysis and expected outcome.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="visually-hidden" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="assets/img/logo.svg" alt="MPM Core logo">
+      <span><span class="brand-name">MPM CORE</span><span class="brand-sub">Multi-omics &amp; Precision Medicine Core</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="technologies.html">Technologies</a><a href="instruments.html">Instruments</a><a href="bioinformatics.html">Bioinformatics</a><a href="training.html">Training & Workshops</a><a href="submit-project.html" class=active>Submit a Project</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">Home</a> &rsaquo; Submit a Project</div>
+    <h1>Submit a Project</h1>
+    <p>Not sure which technology you need? Tell us about your research question and we will recommend the appropriate platform and workflow.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="steps" style="margin-bottom:28px">
+      <div class="step"><strong>Research question</strong><span>What do you want to find out?</span></div>
+      <div class="step"><strong>Sample type</strong><span>Cells, tissue, plasma, bacteria, plants, synthetic compounds...</span></div>
+      <div class="step"><strong>Number of samples</strong><span>Groups, replicates and time points.</span></div>
+      <div class="step"><strong>Desired analysis</strong><span>Proteomics, metabolomics, genomics or not sure yet.</span></div>
+      <div class="step"><strong>Expected outcome</strong><span>What result would answer your question?</span></div>
+    </div>
+    <div class="two-col">
+      <form class="card" id="project-form" novalidate>
+        <h2 style="font-size:1.3rem">Project consultation request</h2>
+        <div class="field-row">
+          <div class="field"><label for="name">Name *</label><input type="text" id="name" name="name" required></div>
+          <div class="field"><label for="email">Email *</label><input type="email" id="email" name="email" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="affiliation">Department / institution</label><input type="text" id="affiliation" name="affiliation"></div>
+          <div class="field"><label for="pi">Principal investigator / lab</label><input type="text" id="pi" name="pi"></div>
+        </div>
+        <div class="field"><label for="question">Research question *</label><textarea id="question" name="question" required placeholder="Describe the biological or chemical question you want to answer."></textarea></div>
+        <div class="field-row">
+          <div class="field"><label for="sample_type">Sample type *</label><input type="text" id="sample_type" name="sample_type" required placeholder="e.g. human plasma, cell lysate, plant tissue"></div>
+          <div class="field"><label for="n_samples">Number of samples *</label><input type="number" id="n_samples" name="n_samples" min="1" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="analysis">Desired analysis *</label>
+            <select id="analysis" name="analysis" required>
+              <option value="">Select...</option>
+              <option>Discovery / quantitative proteomics</option>
+              <option>Targeted proteomics</option>
+              <option>PTM characterization</option>
+              <option>Intact protein / molecular characterization</option>
+              <option>Untargeted metabolomics</option>
+              <option>Targeted metabolomics</option>
+              <option>Lipidomics</option>
+              <option>NMR analysis</option>
+              <option>DNA / RNA sequencing</option>
+              <option>Gene-expression analysis</option>
+              <option>Single-cell applications</option>
+              <option>Bioinformatics / data analysis only</option>
+              <option>Multi-omics study</option>
+              <option>Not sure - please advise</option>
+            </select>
+          </div>
+          <div class="field"><label for="timeline">Timeline</label><input type="text" id="timeline" name="timeline" placeholder="e.g. samples ready in 4 weeks"></div>
+        </div>
+        <div class="field"><label for="outcome">Expected outcome *</label><textarea id="outcome" name="outcome" required placeholder="What result or deliverable would answer your question? e.g. list of differentially abundant proteins, quantified concentrations of 20 metabolites"></textarea></div>
+        <div class="field"><label for="notes">Additional notes</label><textarea id="notes" name="notes" placeholder="Funding source, publication deadlines, previous data, special handling requirements..."></textarea></div>
+        <button class="btn btn-primary" type="submit">Send request</button>
+        <p class="form-note">Submitting opens a pre-filled email to the MPM Core in your mail client. We aim to respond within a few working days to arrange a consultation.</p>
+        <p class="form-status" id="form-status">Your email client should now open with the request. If it did not, please email us directly at <a href="mailto:" data-site-email>the core</a>.</p>
+      </form>
+      <aside class="aside">
+        <div class="card">
+          <h3>What happens next</h3>
+          <ol style="padding-left:1.2em;margin:0;font-size:.94rem">
+            <li>We review your request and may ask a few follow-up questions.</li>
+            <li>We schedule a consultation to discuss design, platform and workflow.</li>
+            <li>You receive a recommended approach, sample-preparation guidance and a cost estimate.</li>
+            <li>Samples are submitted, data acquired, analysed and discussed with you.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Before you submit samples</h3>
+          <p>Please read the sample-preparation guidelines and submission requirements in <a href="resources.html">Resources</a>. Good samples are the biggest determinant of good data.</p>
+        </div>
+        <div class="card">
+          <h3>Prefer to talk first?</h3>
+          <p>Email us at <a href="mailto:" data-site-email>the core</a> or <a href="contact.html#consultation">book a consultation</a>.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>MPM Core</h4>
+        <p>Multi-omics and Precision Medicine Core Facility<br>Core Technology Platforms, New York University Abu Dhabi</p>
+        <p><strong>Technology &bull; Expertise &bull; Training &bull; Collaboration</strong><br><em>Supporting research from experimental design to multi-omics data interpretation.</em></p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#proteomics">Proteomics &amp; Mass Spectrometry</a></li>
+          <li><a href="services.html#metabolomics">Metabolomics &amp; Lipidomics</a></li>
+          <li><a href="services.html#genomics">Genomics</a></li>
+          <li><a href="bioinformatics.html">Bioinformatics &amp; Data Analysis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Work with us</h4>
+        <ul>
+          <li><a href="submit-project.html">Submit a Project</a></li>
+          <li><a href="training.html">Training &amp; Workshops</a></li>
+          <li><a href="instruments.html">Instruments</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:" data-site-email>email</a></li>
+          <li><a href="contact.html">Contact &amp; location</a></li>
+          <li><a href="https://nyuad.nyu.edu/en/research/research-facilities/core-technology-platforms.html" target="_blank" rel="noopener">Core Technology Platforms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; <span data-year></span> New York University Abu Dhabi. All rights reserved.</span>
+      <span>MPM Core is part of the Core Technology Platforms at NYU Abu Dhabi.</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
