@@ -1,6 +1,6 @@
-# MPM Core website
+# IMO Core website
 
-Website for the **MPM Core (Multi-omics and Precision Medicine Core Facility)**, part of the Core Technology Platforms at NYU Abu Dhabi.
+Website for the **IMO Core (Integrated Multi-Omics Core Facility)**, part of the Core Technology Platforms at NYU Abu Dhabi.
 
 The site is plain static HTML, CSS and JavaScript with no build step, so it can be hosted on GitHub Pages or any web server and edited directly.
 
@@ -31,7 +31,7 @@ assets/img/                     logo, favicon, hero background (SVG)
 
 ## Before going live
 
-1. **Contact details** - edit the `SITE` object at the top of `assets/js/main.js` (email, phone, location). The email address there is a placeholder and must be replaced with the core's real mailbox.
+1. **Contact details** - edit the `SITE` object at the top of `assets/js/main.js` (email, phone, location). The email address there (imo.core@nyu.edu) should be confirmed before launch.
 2. **Project form** - by default the form on `submit-project.html` opens a pre-filled email in the visitor's mail client. To send submissions to a form service or ticketing system instead, set the `action` attribute on `<form id="project-form">` and the script will stand aside.
 3. **Upcoming training dates** - the dates on the home page and training page are the example dates from the planning document; update them in both `index.html` and `training.html`.
 4. **News items** - the three announcements on the home page and resources page are placeholders.

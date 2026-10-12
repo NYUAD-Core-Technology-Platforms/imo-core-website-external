@@ -1,8 +1,8 @@
-/* MPM Core website scripts */
+/* IMO Core website scripts */
 (function () {
   // Contact details used across the site. Update these in one place.
   var SITE = {
-    email: "mpmcore@nyu.edu",          // TODO: confirm the core's mailbox
+    email: "imo.core@nyu.edu",          // TODO: confirm the core's mailbox
     phone: "",                         // optional, e.g. "+971 2 628 0000"
     location: "Core Technology Platforms, New York University Abu Dhabi, Saadiyat Island, Abu Dhabi, UAE"
   };
@@ -42,7 +42,7 @@
       e.preventDefault();
       var f = function (id) { var el = form.querySelector("#" + id); return el ? el.value.trim() : ""; };
       var lines = [
-        "New project consultation request (MPM Core website)",
+        "New project consultation request (IMO Core website)",
         "",
         "Name: " + f("name"),
         "Email: " + f("email"),
@@ -63,7 +63,7 @@
         "Additional notes:",
         f("notes")
       ];
-      var subject = "Project consultation request: " + (f("analysis") || "MPM Core");
+      var subject = "Project consultation request: " + (f("analysis") || "IMO Core");
       window.location.href = "mailto:" + SITE.email +
         "?subject=" + encodeURIComponent(subject) +
         "&body=" + encodeURIComponent(lines.join("\n"));
