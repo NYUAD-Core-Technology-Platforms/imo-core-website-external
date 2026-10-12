@@ -41,7 +41,7 @@ assets/img/                     logo, favicon, hero background (SVG)
 
 1. In the repository go to **Settings -> Pages**.
 2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-3. Push to `main` (or run the "Deploy to GitHub Pages" workflow manually). The site is published at `https://nyuad-core-technology-platforms.github.io/mpm-core-website/`.
+3. Push to `main` (or run the "Deploy to GitHub Pages" workflow manually). The site is published at `https://nyuad-core-technology-platforms.github.io/imo-core-website-external/`.
 
 All links are relative, so the site also works from a sub-path or a custom domain (add a `CNAME` file for a custom domain).
 
