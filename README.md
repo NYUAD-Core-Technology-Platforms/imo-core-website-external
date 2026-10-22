@@ -25,7 +25,7 @@ The site is plain static HTML, CSS and JavaScript with no build step, so it can 
 index.html, about.html, ...     one file per page
 assets/css/style.css            all styling (responsive, mobile navigation)
 assets/js/main.js               contact details, mobile menu, project form
-assets/img/                     logo, favicon, hero background (SVG)
+assets/img/                     logo, favicon, homepage cover image, original hero SVG
 .github/workflows/deploy-pages.yml   GitHub Pages deployment
 ```
 
