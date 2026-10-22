@@ -2,7 +2,7 @@
 (function () {
   // Contact details used across the site. Update these in one place.
   var SITE = {
-    email: "imo.core@nyu.edu",          // TODO: confirm the core's mailbox
+    email: "nyuad.imo@nyu.edu",
     phone: "",                         // optional, e.g. "+971 2 628 0000"
     location: "Core Technology Platforms, New York University Abu Dhabi, Saadiyat Island, Abu Dhabi, UAE"
   };

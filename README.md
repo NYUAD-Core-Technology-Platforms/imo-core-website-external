@@ -31,7 +31,7 @@ assets/img/                     logo, favicon, homepage cover image, original he
 
 ## Before going live
 
-1. **Contact details** - edit the `SITE` object at the top of `assets/js/main.js` (email, phone, location). The email address there (imo.core@nyu.edu) should be confirmed before launch.
+1. **Contact details** - edit the `SITE` object at the top of `assets/js/main.js` (email, phone, location). The contact email is nyuad.imo@nyu.edu.
 2. **Project form** - by default the form on `submit-project.html` opens a pre-filled email in the visitor's mail client. To send submissions to a form service or ticketing system instead, set the `action` attribute on `<form id="project-form">` and the script will stand aside.
 3. **Upcoming training dates** - the dates on the home page and training page are the example dates from the planning document; update them in both `index.html` and `training.html`.
 4. **News items** - the three announcements on the home page and resources page are placeholders.
