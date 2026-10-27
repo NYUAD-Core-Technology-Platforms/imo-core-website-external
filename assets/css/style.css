@@ -71,7 +71,7 @@ ul { padding-left: 1.2em; }
 .site-header .wrap { display: flex; align-items: center; gap: 24px; height: 76px; }
 .brand { display: flex; align-items: center; gap: 12px; color: #fff; }
 .brand:hover { text-decoration: none; }
-.brand-mark { width: 62px; height: 44px; flex-shrink: 0; }
+.brand-mark { width: 52px; height: 52px; object-fit: contain; flex-shrink: 0; }
 .brand > span { display: flex; flex-direction: column; white-space: nowrap; }
 .brand-name { font-weight: 800; font-size: 1.2rem; letter-spacing: 0.01em; line-height: 1.1; }
 .brand-sub { font-size: 0.7rem; opacity: .85; }
