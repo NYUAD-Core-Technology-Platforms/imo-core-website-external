@@ -68,6 +68,7 @@ ul { padding-left: 1.2em; }
   background: var(--navy-900); color: #fff; position: sticky; top: 0; z-index: 50;
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
+.home-page .site-header { position: relative; }
 .site-header .wrap { display: flex; align-items: center; gap: 24px; height: 76px; }
 .brand { display: flex; align-items: center; gap: 12px; color: #fff; }
 .brand:hover { text-decoration: none; }
@@ -93,7 +94,7 @@ ul { padding-left: 1.2em; }
   position: relative; color: #fff; overflow: hidden;
   background: radial-gradient(1200px 600px at 80% 30%, #1b3a8f 0%, #0b1d4f 45%, #06112f 100%);
 }
-.hero-art { display: block; width: 92%; height: auto; max-height: 400px; margin: 0 auto; object-fit: cover; background: #06112f; }
+.hero-art { display: block; width: 92%; height: auto; max-height: 400px; margin: 0 auto; object-fit: contain; }
 .hero > .wrap { position: relative; padding: 40px 24px; max-width: var(--max); }
 .hero h1 { font-size: clamp(2.2rem, 4.5vw, 3.4rem); text-shadow: 0 2px 20px rgba(0,0,0,.4); margin-bottom: 18px; }
 .hero p { max-width: 520px; font-size: 1.12rem; color: rgba(255,255,255,.92); margin-bottom: 26px; }
