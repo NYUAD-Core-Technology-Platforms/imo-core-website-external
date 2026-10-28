@@ -129,6 +129,7 @@ ul { padding-left: 1.2em; }
 
 .area-card { display: flex; gap: 14px; align-items: flex-start; }
 .area-card svg { width: 46px; height: 46px; flex-shrink: 0; }
+.area-card:has(a[href="services.html#proteomics"]) svg { width: 56px; height: 56px; }
 .area-card h3 { color: var(--navy-800); margin-bottom: 6px; }
 .area-card p { font-size: .9rem; color: var(--ink-700); margin-bottom: 10px; }
 .area-card a.more { font-size: .88rem; font-weight: 600; }
@@ -187,6 +188,7 @@ ul { padding-left: 1.2em; }
 
 .service-block h3 { display: flex; align-items: center; gap: 10px; color: var(--navy-800); }
 .service-block h3 svg { width: 30px; height: 30px; }
+#proteomics h3 svg { width: 40px; height: 40px; }
 .service-block ul { columns: 1; margin: 8px 0 0; padding-left: 1.1em; }
 .service-block li { margin: 4px 0; font-size: .94rem; }
 .service-block .foot { margin-top: 14px; display: flex; gap: 14px; flex-wrap: wrap; font-size: .88rem; font-weight: 600; }
