@@ -129,9 +129,9 @@ ul { padding-left: 1.2em; }
 
 .area-card { display: flex; gap: 14px; align-items: flex-start; }
 .area-card svg { width: 46px; height: 46px; flex-shrink: 0; }
-.proteomics-icon, .metabolomics-icon, .genomics-icon { width: 56px; height: 56px; object-fit: contain; vertical-align: middle; flex-shrink: 0; }
-.area-card .proteomics-icon, .area-card .metabolomics-icon, .area-card .genomics-icon { width: 64px; height: 64px; }
-.list-links .proteomics-icon, .list-links .metabolomics-icon, .list-links .genomics-icon { width: 28px; height: 28px; }
+.proteomics-icon, .metabolomics-icon, .genomics-icon, .molecular-icon { width: 56px; height: 56px; object-fit: contain; vertical-align: middle; flex-shrink: 0; }
+.area-card .proteomics-icon, .area-card .metabolomics-icon, .area-card .genomics-icon, .area-card .molecular-icon { width: 64px; height: 64px; }
+.list-links .proteomics-icon, .list-links .metabolomics-icon, .list-links .genomics-icon, .list-links .molecular-icon { width: 28px; height: 28px; }
 .area-card h3 { color: var(--navy-800); margin-bottom: 6px; }
 .area-card p { font-size: .9rem; color: var(--ink-700); margin-bottom: 10px; }
 .area-card a.more { font-size: .88rem; font-weight: 600; }
