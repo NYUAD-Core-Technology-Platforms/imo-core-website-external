@@ -199,7 +199,6 @@ ul { padding-left: 1.2em; }
 .instrument-visual svg { width: 100%; height: 100%; display: block; }
 .instrument-photo { height: 210px; background: var(--bg); }
 .instrument-photo img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.instrument-card .instrument-credit { font-size: .75rem; color: var(--ink-500); }
 .instrument-card h3 { color: var(--navy-800); margin-bottom: 2px; }
 .instrument-card .kind { font-size: .85rem; font-weight: 600; color: var(--blue-600); margin-bottom: 8px; }
 .instrument-card p { font-size: .92rem; color: var(--ink-700); }
